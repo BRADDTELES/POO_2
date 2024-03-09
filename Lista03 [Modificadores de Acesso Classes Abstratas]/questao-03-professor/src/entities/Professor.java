@@ -7,6 +7,12 @@ public class Professor {
     private String disciplina;
     private String turma;
     
+    public Professor(String nome, int idade, String disciplina, String turma) {
+        this.nome = nome;
+        this.idade = idade;
+        this.disciplina = disciplina;
+        this.turma = turma;
+    }
     public String getNome() {
         return nome;
     }
@@ -41,7 +47,8 @@ public class Professor {
                 + ", disciplina: " 
                 + disciplina 
                 + ", turma: " 
-                + turma;
+                + turma
+                + "]";
     }
     
 }
