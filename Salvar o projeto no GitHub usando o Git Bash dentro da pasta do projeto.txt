@@ -1,0 +1,45 @@
+### PASSO 1 > Abrir o Git Bash dentro da pasta do Projeto
+
+$ ls
+
+$ git init   //esse comando faz a Inicialização//
+
+$ git add .   //esse comando Adicionar os arquivos//
+
+$ git status
+
+$ git commit -m "Mensagem_de_modificação"   //esse comando usa o Commint para Sobrescrever uma mensagem, dando o nome de cada Etapa do projeto//
+
+$ git status
+
+$ git branch -M main   //esse comando Salva de vez o projeto no main//
+
+$ git remote add origin git@github.com:BRADDTELES/Aula_GitHub.git   //esse é o comando em que depois que se Cria um 'Create a new repository' dando nome do repository//
+
+$ git push -u origin main   //esse comando Enviar os arquivos para o GitHub//
+
+yes //caso perguntar//
+
+### PASSO 2 > Depois que criar o arquivo no VSCode e realizar as tarefas/aulas modificadas. No proprio VSCode dentro do Terminal, digitar:
+
+> git add .
+
+> git commit -m "Frase_de_modificação" //esse comando usa o Commit para sobrescrever o arquivo no Github, dando o nome de cada Etapa do projeto//
+
+> git push
+
+Pronto!
+
+
+### PASSO A PASSO: Arquivo Modificado
+
+> git status //para verificar se foi Modificado o arquivo//
+
+> git add . //para Adicionar o arquivo modificado para o Github//
+
+> git pull origin main  //esse comando serve para salvar as alterações//
+
+> git commit -m "Mensagem_de_alteração"
+
+> git status
+
