@@ -5,6 +5,10 @@ import java.util.Scanner;
 
 public class Program {
 					
+					
+					/** 
+					 * @param args
+					 */
 					public static void main(String[] args) {
 										Scanner sc = new Scanner(System.in);
 										
@@ -20,6 +24,7 @@ public class Program {
 										}else{
 															System.out.println(tv);
 										}
+										sc.close();
 					}
 					
 }
